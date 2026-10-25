@@ -1,0 +1,240 @@
+{
+ "rows_raw": 53940,
+ "cols": 10,
+ "dups": 146,
+ "zero_dim": 20,
+ "impossible": 3,
+ "bad_depth": 80,
+ "t_loop_ms": 14.2968,
+ "t_vec_ms": 0.3387,
+ "speedup": 42.2103,
+ "elasticity": 1.6758,
+ "loglog_r2": 0.933,
+ "rows_clean": 53772,
+ "removed": 168,
+ "out_price": 3519,
+ "out_carat": 1867,
+ "out_depth_pct": 2523,
+ "out_table_pct": 603,
+ "by_cut": [
+  {
+   "cut": "Fair",
+   "n": 1597,
+   "avg_price": 4340.68,
+   "median_price": 3282.0,
+   "avg_carat": 1.04,
+   "avg_ppc": 3761.65
+  },
+  {
+   "cut": "Good",
+   "n": 4888,
+   "avg_price": 3916.28,
+   "median_price": 3038.0,
+   "avg_carat": 0.85,
+   "avg_ppc": 3859.09
+  },
+  {
+   "cut": "Very Good",
+   "n": 12067,
+   "avg_price": 3981.09,
+   "median_price": 2647.0,
+   "avg_carat": 0.81,
+   "avg_ppc": 4014.45
+  },
+  {
+   "cut": "Premium",
+   "n": 13736,
+   "avg_price": 4578.36,
+   "median_price": 3177.5,
+   "avg_carat": 0.89,
+   "avg_ppc": 4222.37
+  },
+  {
+   "cut": "Ideal",
+   "n": 21484,
+   "avg_price": 3462.21,
+   "median_price": 1813.0,
+   "avg_carat": 0.7,
+   "avg_ppc": 3922.37
+  }
+ ],
+ "sql_cum_under_4000": 64.1,
+ "p_mean": 3931.1373,
+ "p_median": 2401.0,
+ "p_std": 3985.853,
+ "p_iqr": 4373.0,
+ "p_cv": 1.0139,
+ "p_skew": 1.6182,
+ "p_kurt": 2.1794,
+ "p_skew_log": 0.1145,
+ "shapiro_raw": 0.8014,
+ "shapiro_log": 0.9641,
+ "corr": [
+  {
+   "feature": "carat",
+   "pearson_r": 0.922,
+   "spearman_rho": 0.963
+  },
+  {
+   "feature": "x",
+   "pearson_r": 0.887,
+   "spearman_rho": 0.964
+  },
+  {
+   "feature": "volume",
+   "pearson_r": 0.923,
+   "spearman_rho": 0.964
+  },
+  {
+   "feature": "depth_pct",
+   "pearson_r": -0.011,
+   "spearman_rho": 0.01
+  },
+  {
+   "feature": "table_pct",
+   "pearson_r": 0.127,
+   "spearman_rho": 0.171
+  }
+ ],
+ "r_loglog": 0.9659,
+ "ci_lo": 3897.4473,
+ "ci_hi": 3964.8273,
+ "boot_lo": 2376.0,
+ "boot_hi": 2441.0,
+ "ideal_mean": 3462.2127,
+ "fair_mean": 4340.6775,
+ "t_cut": -9.5134,
+ "d_cut": -0.2388,
+ "ideal_carat": 0.7034,
+ "fair_carat": 1.0437,
+ "band_ideal": 6121.2577,
+ "band_fair": 4239.6102,
+ "band_n_ideal": 2053,
+ "band_n_fair": 372,
+ "band_p": 0.0,
+ "anova_F": 243.6738,
+ "eta2": 0.0178,
+ "kw_H": 958.0896,
+ "tukey_sig": 9,
+ "eta2_carat": 0.8699,
+ "chi2": 4372.6987,
+ "cramers_v": 0.1426,
+ "pA": 0.0966,
+ "pB": 0.3243,
+ "pA_B": 0.2969,
+ "pB_A": 0.9967,
+ "ols_r2": 0.9827,
+ "ols_elast": 1.8841,
+ "ols_cut": {
+  "Good": 8.4517,
+  "Ideal": 17.5597,
+  "Premium": 15.0238,
+  "Very Good": 12.4954
+ },
+ "ols_clarity_IF": 204.3244,
+ "models": [
+  {
+   "model": "Baseline (mean)",
+   "RMSE_usd": 4214.158,
+   "MAE_usd": 2771.509,
+   "R2_usd": -0.143,
+   "R2_log": -0.0,
+   "train_sec": 0.025
+  },
+  {
+   "model": "Linear Regression",
+   "RMSE_usd": 891.618,
+   "MAE_usd": 449.785,
+   "R2_usd": 0.949,
+   "R2_log": 0.979,
+   "train_sec": 0.042
+  },
+  {
+   "model": "Ridge (alpha=1)",
+   "RMSE_usd": 891.817,
+   "MAE_usd": 449.798,
+   "R2_usd": 0.949,
+   "R2_log": 0.979,
+   "train_sec": 0.03
+  },
+  {
+   "model": "Random Forest",
+   "RMSE_usd": 526.687,
+   "MAE_usd": 265.571,
+   "R2_usd": 0.982,
+   "R2_log": 0.992,
+   "train_sec": 7.906
+  },
+  {
+   "model": "Hist Gradient Boosting",
+   "RMSE_usd": 525.378,
+   "MAE_usd": 267.974,
+   "R2_usd": 0.982,
+   "R2_log": 0.992,
+   "train_sec": 1.174
+  }
+ ],
+ "cv": {
+  "Linear Regression": [
+   0.9801,
+   0.0004
+  ],
+  "Hist Gradient Boosting": [
+   0.9926,
+   0.0002
+  ]
+ },
+ "best_params": {
+  "model__learning_rate": "0.05",
+  "model__max_depth": "None",
+  "model__max_iter": "400"
+ },
+ "tuned": {
+  "RMSE": 528.2303,
+  "MAE": 268.6067,
+  "R2": 0.982
+ },
+ "mape_bands": [
+  {
+   "band": "<1k",
+   "n_test": 2931,
+   "MAPE_%": 5.59
+  },
+  {
+   "band": "1-3k",
+   "n_test": 3089,
+   "MAPE_%": 6.54
+  },
+  {
+   "band": "3-6k",
+   "n_test": 2472,
+   "MAPE_%": 7.13
+  },
+  {
+   "band": "6-10k",
+   "n_test": 1279,
+   "MAPE_%": 7.09
+  },
+  {
+   "band": "10k+",
+   "n_test": 984,
+   "MAPE_%": 6.87
+  }
+ ],
+ "mape_overall": 6.51,
+ "within10": 79.5537,
+ "importance": {
+  "y": 0.4931,
+  "log_carat": 0.2428,
+  "x": 0.0879,
+  "clarity": 0.0833,
+  "z": 0.04,
+  "color": 0.0383,
+  "cut": 0.0021,
+  "depth_pct": 0.0007,
+  "table_pct": 0.0003,
+  "carat": 0.0
+ },
+ "resid_mean": -0.0005,
+ "resid_std": 0.0921
+}
