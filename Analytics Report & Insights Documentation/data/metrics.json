@@ -1,0 +1,774 @@
+{
+ "rows": 7043,
+ "cols": 21,
+ "dups": 0,
+ "missing_tc": 11,
+ "n": 7043,
+ "churned": 1869,
+ "rate": 0.2654,
+ "ci_lo": 0.2552,
+ "ci_hi": 0.2758,
+ "mrr": 456116.6,
+ "mrr_lost": 139130.85,
+ "mrr_lost_pct": 0.305,
+ "arr_lost": 1669570.2,
+ "mc_churn": 74.4413,
+ "mc_stay": 61.2651,
+ "ten_churn": 17.9791,
+ "ten_stay": 37.57,
+ "segs": {
+  "Contract": [
+   {
+    "Contract": "Month-to-month",
+    "customers": 3875,
+    "churned": 1655,
+    "churn_rate": 0.4271,
+    "mrr": 257294.15,
+    "share_of_all_churn": 0.8855
+   },
+   {
+    "Contract": "One year",
+    "customers": 1473,
+    "churned": 166,
+    "churn_rate": 0.1127,
+    "mrr": 95816.6,
+    "share_of_all_churn": 0.0888
+   },
+   {
+    "Contract": "Two year",
+    "customers": 1695,
+    "churned": 48,
+    "churn_rate": 0.0283,
+    "mrr": 103005.85,
+    "share_of_all_churn": 0.0257
+   }
+  ],
+  "InternetService": [
+   {
+    "InternetService": "DSL",
+    "customers": 2421,
+    "churned": 459,
+    "churn_rate": 0.1896,
+    "mrr": 140665.35,
+    "share_of_all_churn": 0.2456
+   },
+   {
+    "InternetService": "Fiber optic",
+    "customers": 3096,
+    "churned": 1297,
+    "churn_rate": 0.4189,
+    "mrr": 283284.4,
+    "share_of_all_churn": 0.694
+   },
+   {
+    "InternetService": "No",
+    "customers": 1526,
+    "churned": 113,
+    "churn_rate": 0.074,
+    "mrr": 32166.85,
+    "share_of_all_churn": 0.0605
+   }
+  ],
+  "PaymentMethod": [
+   {
+    "PaymentMethod": "Bank transfer (automatic)",
+    "customers": 1544,
+    "churned": 258,
+    "churn_rate": 0.1671,
+    "mrr": 103745.45,
+    "share_of_all_churn": 0.138
+   },
+   {
+    "PaymentMethod": "Credit card (automatic)",
+    "customers": 1522,
+    "churned": 232,
+    "churn_rate": 0.1524,
+    "mrr": 101231.85,
+    "share_of_all_churn": 0.1241
+   },
+   {
+    "PaymentMethod": "Electronic check",
+    "customers": 2365,
+    "churned": 1071,
+    "churn_rate": 0.4529,
+    "mrr": 180345.0,
+    "share_of_all_churn": 0.573
+   },
+   {
+    "PaymentMethod": "Mailed check",
+    "customers": 1612,
+    "churned": 308,
+    "churn_rate": 0.1911,
+    "mrr": 70794.3,
+    "share_of_all_churn": 0.1648
+   }
+  ],
+  "tenure_band": [
+   {
+    "tenure_band": "0-12 m",
+    "customers": 2186,
+    "churned": 1037,
+    "churn_rate": 0.4744,
+    "mrr": 122629.75,
+    "share_of_all_churn": 0.5548
+   },
+   {
+    "tenure_band": "13-24 m",
+    "customers": 1024,
+    "churned": 294,
+    "churn_rate": 0.2871,
+    "mrr": 62829.85,
+    "share_of_all_churn": 0.1573
+   },
+   {
+    "tenure_band": "25-48 m",
+    "customers": 1594,
+    "churned": 325,
+    "churn_rate": 0.2039,
+    "mrr": 105093.3,
+    "share_of_all_churn": 0.1739
+   },
+   {
+    "tenure_band": "49-72 m",
+    "customers": 2239,
+    "churned": 213,
+    "churn_rate": 0.0951,
+    "mrr": 165563.7,
+    "share_of_all_churn": 0.114
+   }
+  ],
+  "PaperlessBilling": [
+   {
+    "PaperlessBilling": "No",
+    "customers": 2872,
+    "churned": 469,
+    "churn_rate": 0.1633,
+    "mrr": 149323.8,
+    "share_of_all_churn": 0.2509
+   },
+   {
+    "PaperlessBilling": "Yes",
+    "customers": 4171,
+    "churned": 1400,
+    "churn_rate": 0.3357,
+    "mrr": 306792.8,
+    "share_of_all_churn": 0.7491
+   }
+  ],
+  "TechSupport": [
+   {
+    "TechSupport": "No",
+    "customers": 4999,
+    "churned": 1559,
+    "churn_rate": 0.3119,
+    "mrr": 291206.4,
+    "share_of_all_churn": 0.8341
+   },
+   {
+    "TechSupport": "Yes",
+    "customers": 2044,
+    "churned": 310,
+    "churn_rate": 0.1517,
+    "mrr": 164910.2,
+    "share_of_all_churn": 0.1659
+   }
+  ],
+  "OnlineSecurity": [
+   {
+    "OnlineSecurity": "No",
+    "customers": 5024,
+    "churned": 1574,
+    "churn_rate": 0.3133,
+    "mrr": 296941.2,
+    "share_of_all_churn": 0.8422
+   },
+   {
+    "OnlineSecurity": "Yes",
+    "customers": 2019,
+    "churned": 295,
+    "churn_rate": 0.1461,
+    "mrr": 159175.4,
+    "share_of_all_churn": 0.1578
+   }
+  ],
+  "SeniorCitizen": [
+   {
+    "SeniorCitizen": "No",
+    "customers": 5901,
+    "churned": 1393,
+    "churn_rate": 0.2361,
+    "mrr": 364961.75,
+    "share_of_all_churn": 0.7453
+   },
+   {
+    "SeniorCitizen": "Yes",
+    "customers": 1142,
+    "churned": 476,
+    "churn_rate": 0.4168,
+    "mrr": 91154.85,
+    "share_of_all_churn": 0.2547
+   }
+  ],
+  "Partner": [
+   {
+    "Partner": "No",
+    "customers": 3641,
+    "churned": 1200,
+    "churn_rate": 0.3296,
+    "mrr": 225541.75,
+    "share_of_all_churn": 0.6421
+   },
+   {
+    "Partner": "Yes",
+    "customers": 3402,
+    "churned": 669,
+    "churn_rate": 0.1966,
+    "mrr": 230574.85,
+    "share_of_all_churn": 0.3579
+   }
+  ],
+  "Dependents": [
+   {
+    "Dependents": "No",
+    "customers": 4933,
+    "churned": 1543,
+    "churn_rate": 0.3128,
+    "mrr": 330524.85,
+    "share_of_all_churn": 0.8256
+   },
+   {
+    "Dependents": "Yes",
+    "customers": 2110,
+    "churned": 326,
+    "churn_rate": 0.1545,
+    "mrr": 125591.75,
+    "share_of_all_churn": 0.1744
+   }
+  ],
+  "gender": [
+   {
+    "gender": "Female",
+    "customers": 3488,
+    "churned": 939,
+    "churn_rate": 0.2692,
+    "mrr": 227432.4,
+    "share_of_all_churn": 0.5024
+   },
+   {
+    "gender": "Male",
+    "customers": 3555,
+    "churned": 930,
+    "churn_rate": 0.2616,
+    "mrr": 228684.2,
+    "share_of_all_churn": 0.4976
+   }
+  ],
+  "auto_pay": [
+   {
+    "auto_pay": "No",
+    "customers": 3977,
+    "churned": 1379,
+    "churn_rate": 0.3467,
+    "mrr": 251139.3,
+    "share_of_all_churn": 0.7378
+   },
+   {
+    "auto_pay": "Yes",
+    "customers": 3066,
+    "churned": 490,
+    "churn_rate": 0.1598,
+    "mrr": 204977.3,
+    "share_of_all_churn": 0.2622
+   }
+  ]
+ },
+ "core_n": 1994,
+ "core_share": 0.2831,
+ "core_rate": 0.5135,
+ "core_churn_share": 0.5479,
+ "ct_obs": [
+  {
+   "Contract": "Month-to-month",
+   "No": 2220,
+   "Yes": 1655
+  },
+  {
+   "Contract": "One year",
+   "No": 1307,
+   "Yes": 166
+  },
+  {
+   "Contract": "Two year",
+   "No": 1647,
+   "Yes": 48
+  }
+ ],
+ "ct_exp": [
+  {
+   "Contract": "Month-to-month",
+   "No": 2846.7,
+   "Yes": 1028.3
+  },
+  {
+   "Contract": "One year",
+   "No": 1082.1,
+   "Yes": 390.9
+  },
+  {
+   "Contract": "Two year",
+   "No": 1245.2,
+   "Yes": 449.8
+  }
+ ],
+ "ct_chi2": 1184.5966,
+ "ct_p": 5.863038300673391e-258,
+ "ct_V": 0.4101,
+ "ct_rr": 15.0819,
+ "ct_dof": 2,
+ "chi_tab": [
+  {
+   "feature": "Contract",
+   "dof": 2,
+   "chi2": 1184.5966,
+   "p_raw": 0.0,
+   "cramers_v": 0.4101,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "InternetService",
+   "dof": 2,
+   "chi2": 732.3096,
+   "p_raw": 0.0,
+   "cramers_v": 0.3225,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "PaymentMethod",
+   "dof": 3,
+   "chi2": 648.1423,
+   "p_raw": 0.0,
+   "cramers_v": 0.3034,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "PaperlessBilling",
+   "dof": 1,
+   "chi2": 258.2776,
+   "p_raw": 0.0,
+   "cramers_v": 0.1915,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "OnlineSecurity",
+   "dof": 1,
+   "chi2": 205.6331,
+   "p_raw": 0.0,
+   "cramers_v": 0.1709,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "TechSupport",
+   "dof": 1,
+   "chi2": 190.1668,
+   "p_raw": 0.0,
+   "cramers_v": 0.1643,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "Dependents",
+   "dof": 1,
+   "chi2": 189.1292,
+   "p_raw": 0.0,
+   "cramers_v": 0.1639,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "SeniorCitizen",
+   "dof": 1,
+   "chi2": 159.4263,
+   "p_raw": 0.0,
+   "cramers_v": 0.1505,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "Partner",
+   "dof": 1,
+   "chi2": 158.7334,
+   "p_raw": 0.0,
+   "cramers_v": 0.1501,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "OnlineBackup",
+   "dof": 1,
+   "chi2": 47.2609,
+   "p_raw": 0.0,
+   "cramers_v": 0.0819,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "DeviceProtection",
+   "dof": 1,
+   "chi2": 30.5134,
+   "p_raw": 0.0,
+   "cramers_v": 0.0658,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "StreamingTV",
+   "dof": 1,
+   "chi2": 27.8625,
+   "p_raw": 0.0,
+   "cramers_v": 0.0629,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "StreamingMovies",
+   "dof": 1,
+   "chi2": 26.2513,
+   "p_raw": 0.0,
+   "cramers_v": 0.0611,
+   "p_holm": 0.0,
+   "significant": true
+  },
+  {
+   "feature": "MultipleLines",
+   "dof": 1,
+   "chi2": 11.1433,
+   "p_raw": 0.0008,
+   "cramers_v": 0.0398,
+   "p_holm": 0.0025,
+   "significant": true
+  },
+  {
+   "feature": "PhoneService",
+   "dof": 1,
+   "chi2": 0.915,
+   "p_raw": 0.3388,
+   "cramers_v": 0.0114,
+   "p_holm": 0.6776,
+   "significant": false
+  },
+  {
+   "feature": "gender",
+   "dof": 1,
+   "chi2": 0.4841,
+   "p_raw": 0.4866,
+   "cramers_v": 0.0083,
+   "p_holm": 0.6776,
+   "significant": false
+  }
+ ],
+ "n_sig": 14,
+ "n_tests": 16,
+ "fib_n": 3096,
+ "fib_c": 1297,
+ "dsl_n": 2421,
+ "dsl_c": 459,
+ "fib_rate": 0.4189,
+ "dsl_rate": 0.1896,
+ "z_fd": 18.1472,
+ "p_fd": 1.3520464229927545e-73,
+ "diff_lo": 20.5973,
+ "diff_hi": 25.27,
+ "h_fd": 0.5069,
+ "fib_mc": 91.5001,
+ "dsl_mc": 58.1022,
+ "fib_ts": 0.2797,
+ "fib_os": 0.271,
+ "t_ten": -34.8238,
+ "p_ten": 1.195494547260576e-232,
+ "ten_diff": -19.5908,
+ "ten_ci_lo": -20.6938,
+ "ten_ci_hi": -18.4879,
+ "U_ten": 2515538.0,
+ "d_ten": -0.8522,
+ "ten_med_c": 10.0,
+ "ten_med_s": 38.0,
+ "t_mc": 18.4075,
+ "p_mc": 8.592449331547065e-73,
+ "d_mc": 0.4463,
+ "anova_F": 20.828,
+ "anova_p": 9.575270975922414e-10,
+ "eta2_mc": 0.0059,
+ "kw_H": 21.2262,
+ "mc_by_contract": [
+  {
+   "Contract": "Month-to-month",
+   "count": 3875,
+   "mean": 66.4,
+   "median": 73.25,
+   "std": 26.93
+  },
+  {
+   "Contract": "One year",
+   "count": 1473,
+   "mean": 65.05,
+   "median": 68.75,
+   "std": 31.84
+  },
+  {
+   "Contract": "Two year",
+   "count": 1695,
+   "mean": 60.77,
+   "median": 64.35,
+   "std": 34.68
+  }
+ ],
+ "r_ten_tc": 0.8262,
+ "s_ten_tc": 0.8897,
+ "r_ten_mc": 0.2479,
+ "r_churn_ten": -0.3522,
+ "r_churn_mc": 0.1934,
+ "vif": {
+  "tenure": 5.8367,
+  "MonthlyCharges": 3.2167,
+  "TotalCharges": 9.5109
+ },
+ "lr_prsq": 0.2751,
+ "lr_n": 7043,
+ "orx": [
+  {
+   "factor": "Internet: Fiber optic",
+   "OR": 1.661,
+   "CI_low": 1.261,
+   "CI_high": 2.188,
+   "p": 0.0
+  },
+  {
+   "factor": "Payment: Electronic check",
+   "OR": 1.468,
+   "CI_low": 1.22,
+   "CI_high": 1.767,
+   "p": 0.0
+  },
+  {
+   "factor": "PaperlessBilling: Yes",
+   "OR": 1.449,
+   "CI_low": 1.254,
+   "CI_high": 1.674,
+   "p": 0.0
+  },
+  {
+   "factor": "SeniorCitizen: Yes",
+   "OR": 1.283,
+   "CI_low": 1.088,
+   "CI_high": 1.513,
+   "p": 0.003
+  },
+  {
+   "factor": "Payment: Bank transfer (automatic)",
+   "OR": 1.026,
+   "CI_low": 0.822,
+   "CI_high": 1.279,
+   "p": 0.823
+  },
+  {
+   "factor": "Partner: Yes",
+   "OR": 1.012,
+   "CI_low": 0.87,
+   "CI_high": 1.177,
+   "p": 0.88
+  },
+  {
+   "factor": "MonthlyCharges",
+   "OR": 1.011,
+   "CI_low": 1.005,
+   "CI_high": 1.018,
+   "p": 0.001
+  },
+  {
+   "factor": "tenure",
+   "OR": 0.969,
+   "CI_low": 0.965,
+   "CI_high": 0.973,
+   "p": 0.0
+  },
+  {
+   "factor": "Payment: Credit card (automatic)",
+   "OR": 0.945,
+   "CI_low": 0.755,
+   "CI_high": 1.184,
+   "p": 0.624
+  },
+  {
+   "factor": "Dependents: Yes",
+   "OR": 0.831,
+   "CI_low": 0.697,
+   "CI_high": 0.989,
+   "p": 0.037
+  },
+  {
+   "factor": "TechSupport: Yes",
+   "OR": 0.679,
+   "CI_low": 0.571,
+   "CI_high": 0.807,
+   "p": 0.0
+  },
+  {
+   "factor": "OnlineSecurity: Yes",
+   "OR": 0.635,
+   "CI_low": 0.537,
+   "CI_high": 0.75,
+   "p": 0.0
+  },
+  {
+   "factor": "Contract: One year",
+   "OR": 0.516,
+   "CI_low": 0.419,
+   "CI_high": 0.635,
+   "p": 0.0
+  },
+  {
+   "factor": "Internet: No",
+   "OR": 0.464,
+   "CI_low": 0.343,
+   "CI_high": 0.627,
+   "p": 0.0
+  },
+  {
+   "factor": "Contract: Two year",
+   "OR": 0.262,
+   "CI_low": 0.187,
+   "CI_high": 0.368,
+   "p": 0.0
+  }
+ ],
+ "or_ten_month": 0.969,
+ "or_ten_year_red": 31.4387,
+ "boot_gap": 35.9546,
+ "boot_lo": 34.165,
+ "boot_hi": 37.7671,
+ "mtm_rate": 0.4271,
+ "long_rate": 0.0676,
+ "pilot_n": 1509,
+ "mtm_n": 3875,
+ "long_n": 3168,
+ "models": [
+  {
+   "model": "Logistic Regression",
+   "cv_auc": 0.8427,
+   "cv_std": 0.0152,
+   "test_auc": 0.8441,
+   "test_avg_precision": 0.632
+  },
+  {
+   "model": "Random Forest",
+   "cv_auc": 0.8416,
+   "cv_std": 0.0149,
+   "test_auc": 0.8401,
+   "test_avg_precision": 0.6319
+  },
+  {
+   "model": "Gradient Boosting",
+   "cv_auc": 0.8455,
+   "cv_std": 0.0147,
+   "test_auc": 0.8451,
+   "test_avg_precision": 0.6446
+  }
+ ],
+ "train_n": 5282,
+ "test_n": 1761,
+ "test_base": 0.2652,
+ "lift": [
+  {
+   "decile": 1,
+   "customers": 177,
+   "churners": 129,
+   "churn_rate": 0.729,
+   "lift": 2.75,
+   "cum_capture_%": 27.6
+  },
+  {
+   "decile": 2,
+   "customers": 176,
+   "churners": 108,
+   "churn_rate": 0.614,
+   "lift": 2.32,
+   "cum_capture_%": 50.7
+  },
+  {
+   "decile": 3,
+   "customers": 176,
+   "churners": 74,
+   "churn_rate": 0.42,
+   "lift": 1.58,
+   "cum_capture_%": 66.6
+  },
+  {
+   "decile": 4,
+   "customers": 176,
+   "churners": 58,
+   "churn_rate": 0.33,
+   "lift": 1.24,
+   "cum_capture_%": 79.0
+  },
+  {
+   "decile": 5,
+   "customers": 176,
+   "churners": 41,
+   "churn_rate": 0.233,
+   "lift": 0.88,
+   "cum_capture_%": 87.8
+  },
+  {
+   "decile": 6,
+   "customers": 176,
+   "churners": 30,
+   "churn_rate": 0.17,
+   "lift": 0.64,
+   "cum_capture_%": 94.2
+  },
+  {
+   "decile": 7,
+   "customers": 176,
+   "churners": 17,
+   "churn_rate": 0.097,
+   "lift": 0.37,
+   "cum_capture_%": 97.9
+  },
+  {
+   "decile": 8,
+   "customers": 176,
+   "churners": 8,
+   "churn_rate": 0.045,
+   "lift": 0.17,
+   "cum_capture_%": 99.6
+  },
+  {
+   "decile": 9,
+   "customers": 176,
+   "churners": 0,
+   "churn_rate": 0.0,
+   "lift": 0.0,
+   "cum_capture_%": 99.6
+  },
+  {
+   "decile": 10,
+   "customers": 176,
+   "churners": 2,
+   "churn_rate": 0.011,
+   "lift": 0.04,
+   "cum_capture_%": 100.0
+  }
+ ],
+ "top20_prec": 0.6714,
+ "top20_rec": 0.5075,
+ "top10_lift": 2.75,
+ "top20_capture": 50.7,
+ "sc_save": 0.2,
+ "sc_mrr": 3896.38,
+ "sc_pct": 0.1135
+}
