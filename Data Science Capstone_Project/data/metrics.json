@@ -1,0 +1,1187 @@
+{
+ "rows_raw": 48842,
+ "cols": 15,
+ "dups": 52,
+ "miss": {
+  "workclass": 2799,
+  "occupation": 2809,
+  "native_country": 857
+ },
+ "top_gain": 244,
+ "pos_gain": 0.0826,
+ "pos_loss": 0.0467,
+ "race_share": {
+  "White": 0.855,
+  "Black": 0.0959,
+  "Asian-Pac-Islander": 0.0311,
+  "Amer-Indian-Eskimo": 0.0096,
+  "Other": 0.0083
+ },
+ "sex_share": {
+  "Male": 0.6685,
+  "Female": 0.3315
+ },
+ "age90": 55,
+ "occmiss_rate": 0.0945,
+ "occpres_rate": 0.2483,
+ "occmiss_chi": 342.496,
+ "occmiss_n": 2805,
+ "occmiss_hours": 31.7868,
+ "occpres_hours": 40.9529,
+ "rows": 48790,
+ "removed": 52,
+ "high_rate": 0.2394,
+ "high_n": 11681,
+ "rates": {
+  "sex": [
+   {
+    "sex": "Female",
+    "n": 16176,
+    "high_rate": 0.1094
+   },
+   {
+    "sex": "Male",
+    "n": 32614,
+    "high_rate": 0.3039
+   }
+  ],
+  "race": [
+   {
+    "race": "Amer-Indian-Eskimo",
+    "n": 470,
+    "high_rate": 0.117
+   },
+   {
+    "race": "Asian-Pac-Islander",
+    "n": 1517,
+    "high_rate": 0.2696
+   },
+   {
+    "race": "Black",
+    "n": 4683,
+    "high_rate": 0.1209
+   },
+   {
+    "race": "Other",
+    "n": 406,
+    "high_rate": 0.1232
+   },
+   {
+    "race": "White",
+    "n": 41714,
+    "high_rate": 0.2541
+   }
+  ],
+  "edu_group": [
+   {
+    "edu_group": "No HS diploma",
+    "n": 6399,
+    "high_rate": 0.0572
+   },
+   {
+    "edu_group": "HS graduate",
+    "n": 15770,
+    "high_rate": 0.1586
+   },
+   {
+    "edu_group": "Some college/Assoc",
+    "n": 14524,
+    "high_rate": 0.2063
+   },
+   {
+    "edu_group": "Bachelors",
+    "n": 8013,
+    "high_rate": 0.4132
+   },
+   {
+    "edu_group": "Postgraduate",
+    "n": 4084,
+    "high_rate": 0.6139
+   }
+  ],
+  "age_band": [
+   {
+    "age_band": "17-24",
+    "n": 8409,
+    "high_rate": 0.0111
+   },
+   {
+    "age_band": "25-34",
+    "n": 12564,
+    "high_rate": 0.1683
+   },
+   {
+    "age_band": "35-44",
+    "n": 12184,
+    "high_rate": 0.3328
+   },
+   {
+    "age_band": "45-54",
+    "n": 8765,
+    "high_rate": 0.394
+   },
+   {
+    "age_band": "55-64",
+    "n": 4782,
+    "high_rate": 0.3216
+   },
+   {
+    "age_band": "65+",
+    "n": 2086,
+    "high_rate": 0.2047
+   }
+  ],
+  "hours_band": [
+   {
+    "hours_band": "Part-time (<35)",
+    "n": 8386,
+    "high_rate": 0.0692
+   },
+   {
+    "hours_band": "Full-time (35-44)",
+    "n": 26995,
+    "high_rate": 0.2091
+   },
+   {
+    "hours_band": "Overtime (45+)",
+    "n": 13409,
+    "high_rate": 0.407
+   }
+  ],
+  "marital_group": [
+   {
+    "marital_group": "Div/Sep/Widowed",
+    "n": 10305,
+    "high_rate": 0.0928
+   },
+   {
+    "marital_group": "Married",
+    "n": 22403,
+    "high_rate": 0.446
+   },
+   {
+    "marital_group": "Never married",
+    "n": 16082,
+    "high_rate": 0.0456
+   }
+  ],
+  "workclass_group": [
+   {
+    "workclass_group": "Government",
+    "n": 6549,
+    "high_rate": 0.3081
+   },
+   {
+    "workclass_group": "Other",
+    "n": 31,
+    "high_rate": 0.0645
+   },
+   {
+    "workclass_group": "Private",
+    "n": 33860,
+    "high_rate": 0.218
+   },
+   {
+    "workclass_group": "Self-employed",
+    "n": 5555,
+    "high_rate": 0.3627
+   },
+   {
+    "workclass_group": "Unknown",
+    "n": 2795,
+    "high_rate": 0.0948
+   }
+  ]
+ },
+ "occ": [
+  {
+   "occupation": "Exec-managerial",
+   "n": 6082,
+   "high_rate": 0.4778
+  },
+  {
+   "occupation": "Prof-specialty",
+   "n": 6165,
+   "high_rate": 0.4513
+  },
+  {
+   "occupation": "Armed-Forces",
+   "n": 15,
+   "high_rate": 0.3333
+  },
+  {
+   "occupation": "Protective-serv",
+   "n": 982,
+   "high_rate": 0.3136
+  },
+  {
+   "occupation": "Tech-support",
+   "n": 1445,
+   "high_rate": 0.2907
+  },
+  {
+   "occupation": "Sales",
+   "n": 5501,
+   "high_rate": 0.2681
+  },
+  {
+   "occupation": "Craft-repair",
+   "n": 6102,
+   "high_rate": 0.2265
+  },
+  {
+   "occupation": "Transport-moving",
+   "n": 2355,
+   "high_rate": 0.2042
+  },
+  {
+   "occupation": "Adm-clerical",
+   "n": 5606,
+   "high_rate": 0.137
+  },
+  {
+   "occupation": "Machine-op-inspct",
+   "n": 3017,
+   "high_rate": 0.123
+  },
+  {
+   "occupation": "Farming-fishing",
+   "n": 1485,
+   "high_rate": 0.1165
+  },
+  {
+   "occupation": "Unknown",
+   "n": 2805,
+   "high_rate": 0.0945
+  },
+  {
+   "occupation": "Handlers-cleaners",
+   "n": 2071,
+   "high_rate": 0.0666
+  },
+  {
+   "occupation": "Other-service",
+   "n": 4919,
+   "high_rate": 0.0415
+  },
+  {
+   "occupation": "Priv-house-serv",
+   "n": 240,
+   "high_rate": 0.0125
+  }
+ ],
+ "men_rate": 0.3039,
+ "women_rate": 0.1094,
+ "men_n": 32614,
+ "women_n": 16176,
+ "men_c": 9912,
+ "women_c": 1769,
+ "gap_pp": 19.4559,
+ "gap_lo": 18.7627,
+ "gap_hi": 20.1491,
+ "z_sex": 47.4105,
+ "h_sex": 0.4937,
+ "ratio_sex": 2.7791,
+ "strat_hours_band": [
+  {
+   "hours_band": "Part-time (<35)",
+   "Female": 0.062,
+   "Male": 0.077,
+   "gap_pp": 1.5,
+   "n_women": 4426
+  },
+  {
+   "hours_band": "Full-time (35-44)",
+   "Female": 0.102,
+   "Male": 0.266,
+   "gap_pp": 16.4,
+   "n_women": 9380
+  },
+  {
+   "hours_band": "Overtime (45+)",
+   "Female": 0.225,
+   "Male": 0.446,
+   "gap_pp": 22.1,
+   "n_women": 2370
+  }
+ ],
+ "strat_edu_group": [
+  {
+   "edu_group": "No HS diploma",
+   "Female": 0.015,
+   "Male": 0.076,
+   "gap_pp": 6.1,
+   "n_women": 1986
+  },
+  {
+   "edu_group": "HS graduate",
+   "Female": 0.065,
+   "Male": 0.203,
+   "gap_pp": 13.8,
+   "n_women": 5094
+  },
+  {
+   "edu_group": "Some college/Assoc",
+   "Female": 0.085,
+   "Male": 0.281,
+   "gap_pp": 19.6,
+   "n_women": 5533
+  },
+  {
+   "edu_group": "Bachelors",
+   "Female": 0.211,
+   "Male": 0.504,
+   "gap_pp": 29.3,
+   "n_women": 2473
+  },
+  {
+   "edu_group": "Postgraduate",
+   "Female": 0.383,
+   "Male": 0.698,
+   "gap_pp": 31.5,
+   "n_women": 1090
+  }
+ ],
+ "strat_marital_group": [
+  {
+   "marital_group": "Div/Sep/Widowed",
+   "Female": 0.06,
+   "Male": 0.148,
+   "gap_pp": 8.8,
+   "n_women": 6467
+  },
+  {
+   "marital_group": "Married",
+   "Female": 0.448,
+   "Male": 0.446,
+   "gap_pp": -0.2,
+   "n_women": 2505
+  },
+  {
+   "marital_group": "Never married",
+   "Female": 0.036,
+   "Male": 0.053,
+   "gap_pp": 1.7,
+   "n_women": 7204
+  }
+ ],
+ "hrs_w": 36.4045,
+ "hrs_m": 42.4204,
+ "ft_w": 0.7264,
+ "ft_m": 0.8786,
+ "mar_w": 0.1549,
+ "mar_m": 0.6101,
+ "or_raw": 0.2812,
+ "or_adj": 0.8355,
+ "or_adj_lo": 0.7696,
+ "or_adj_hi": 0.9071,
+ "explained": 0.8583,
+ "prsq0": 0.0462,
+ "prsq1": 0.4201,
+ "edu_rho": 0.328,
+ "edu_or": 1.4365,
+ "edu_ci_lo": 1.4222,
+ "edu_ci_hi": 1.4511,
+ "edu_table": [
+  {
+   "education_num": 1,
+   "size": 81,
+   "mean": 0.012
+  },
+  {
+   "education_num": 2,
+   "size": 245,
+   "mean": 0.033
+  },
+  {
+   "education_num": 3,
+   "size": 507,
+   "mean": 0.053
+  },
+  {
+   "education_num": 4,
+   "size": 954,
+   "mean": 0.065
+  },
+  {
+   "education_num": 5,
+   "size": 756,
+   "mean": 0.054
+  },
+  {
+   "education_num": 6,
+   "size": 1389,
+   "mean": 0.063
+  },
+  {
+   "education_num": 7,
+   "size": 1812,
+   "mean": 0.051
+  },
+  {
+   "education_num": 8,
+   "size": 655,
+   "mean": 0.073
+  },
+  {
+   "education_num": 9,
+   "size": 15770,
+   "mean": 0.159
+  },
+  {
+   "education_num": 10,
+   "size": 10863,
+   "mean": 0.19
+  },
+  {
+   "education_num": 11,
+   "size": 2060,
+   "mean": 0.253
+  },
+  {
+   "education_num": 12,
+   "size": 1601,
+   "mean": 0.258
+  },
+  {
+   "education_num": 13,
+   "size": 8013,
+   "mean": 0.413
+  },
+  {
+   "education_num": 14,
+   "size": 2656,
+   "mean": 0.549
+  },
+  {
+   "education_num": 15,
+   "size": 834,
+   "mean": 0.74
+  },
+  {
+   "education_num": 16,
+   "size": 594,
+   "mean": 0.726
+  }
+ ],
+ "age_peak": 50.3784,
+ "age_p2": 0.0,
+ "ttests": [
+  {
+   "variable": "age",
+   "mean_high": 44.276,
+   "mean_low": 36.883,
+   "diff": 7.393,
+   "welch_t": 60.55,
+   "p": 0.0,
+   "cohens_d": 0.554,
+   "median_high": 43.0,
+   "median_low": 34.0
+  },
+  {
+   "variable": "education_num",
+   "mean_high": 11.603,
+   "mean_low": 9.599,
+   "diff": 2.004,
+   "welch_t": 78.859,
+   "p": 0.0,
+   "cohens_d": 0.827,
+   "median_high": 12.0,
+   "median_low": 9.0
+  },
+  {
+   "variable": "hours_per_week",
+   "mean_high": 45.455,
+   "mean_low": 38.843,
+   "diff": 6.612,
+   "welch_t": 54.623,
+   "p": 0.0,
+   "cohens_d": 0.548,
+   "median_high": 40.0,
+   "median_low": 40.0
+  }
+ ],
+ "chi_tab": [
+  {
+   "feature": "relationship",
+   "dof": 5,
+   "chi2": 10070.6319,
+   "p": 0.0,
+   "cramers_v": 0.4543,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "marital_status",
+   "dof": 6,
+   "chi2": 9797.1413,
+   "p": 0.0,
+   "cramers_v": 0.4481,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "education",
+   "dof": 15,
+   "chi2": 6536.4663,
+   "p": 0.0,
+   "cramers_v": 0.366,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "occupation",
+   "dof": 14,
+   "chi2": 5975.4744,
+   "p": 0.0,
+   "cramers_v": 0.35,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "age_band",
+   "dof": 5,
+   "chi2": 4681.1433,
+   "p": 0.0,
+   "cramers_v": 0.3097,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "hours_band",
+   "dof": 2,
+   "chi2": 3538.5728,
+   "p": 0.0,
+   "cramers_v": 0.2693,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "sex",
+   "dof": 1,
+   "chi2": 2246.6893,
+   "p": 0.0,
+   "cramers_v": 0.2146,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "workclass_group",
+   "dof": 4,
+   "chi2": 1045.3467,
+   "p": 0.0,
+   "cramers_v": 0.1464,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "race",
+   "dof": 4,
+   "chi2": 487.4855,
+   "p": 0.0,
+   "cramers_v": 0.1,
+   "p_holm": 0.0
+  },
+  {
+   "feature": "country_grp",
+   "dof": 3,
+   "chi2": 195.4927,
+   "p": 0.0,
+   "cramers_v": 0.0633,
+   "p_holm": 0.0
+  }
+ ],
+ "orx": [
+  {
+   "factor": "Sex: Female",
+   "OR": 0.8445,
+   "lo": 0.7777,
+   "hi": 0.9171,
+   "p": 0.0001
+  },
+  {
+   "factor": "Race: Amer-Indian-Eskimo",
+   "OR": 0.5738,
+   "lo": 0.4061,
+   "hi": 0.8108,
+   "p": 0.0016
+  },
+  {
+   "factor": "Race: Asian-Pac-Islander",
+   "OR": 0.868,
+   "lo": 0.7398,
+   "hi": 1.0183,
+   "p": 0.0822
+  },
+  {
+   "factor": "Race: Black",
+   "OR": 0.7677,
+   "lo": 0.682,
+   "hi": 0.8642,
+   "p": 0.0
+  },
+  {
+   "factor": "Race: Other",
+   "OR": 0.792,
+   "lo": 0.5377,
+   "hi": 1.1667,
+   "p": 0.2381
+  },
+  {
+   "factor": "Capital gain: 5000 or more",
+   "OR": 29.5897,
+   "lo": 25.1939,
+   "hi": 34.7525,
+   "p": 0.0
+  },
+  {
+   "factor": "Capital gain: Under 5000",
+   "OR": 0.9214,
+   "lo": 0.7903,
+   "hi": 1.0744,
+   "p": 0.2964
+  },
+  {
+   "factor": "Marital: Married",
+   "OR": 9.084,
+   "lo": 8.2714,
+   "hi": 9.9764,
+   "p": 0.0
+  },
+  {
+   "factor": "Marital: Never married",
+   "OR": 0.8674,
+   "lo": 0.7684,
+   "hi": 0.9792,
+   "p": 0.0214
+  },
+  {
+   "factor": "age",
+   "OR": 1.2476,
+   "lo": 1.2272,
+   "hi": 1.2685,
+   "p": 0.0
+  },
+  {
+   "factor": "age2",
+   "OR": 0.8063,
+   "lo": 0.7919,
+   "hi": 0.8209,
+   "p": 0.0
+  },
+  {
+   "factor": "education_num",
+   "OR": 1.3059,
+   "lo": 1.2871,
+   "hi": 1.325,
+   "p": 0.0
+  },
+  {
+   "factor": "hours_per_week",
+   "OR": 1.0228,
+   "lo": 1.0202,
+   "hi": 1.0254,
+   "p": 0.0
+  },
+  {
+   "factor": "has_loss",
+   "OR": 3.0909,
+   "lo": 2.763,
+   "hi": 3.4577,
+   "p": 0.0
+  }
+ ],
+ "lr_prsq": 0.4208,
+ "or_edu_adj": 1.3059,
+ "or_hours": 1.0228,
+ "or_hours10": 1.2527,
+ "boot_lo": 18.7591,
+ "boot_hi": 20.1667,
+ "or_sens": 0.2767,
+ "train_n": 36592,
+ "test_n": 12198,
+ "models": [
+  {
+   "model": "Majority baseline",
+   "cv_auc": 0.5,
+   "cv_std": 0.0,
+   "test_auc": 0.5,
+   "test_pr_auc": 0.2394,
+   "brier": 0.1821,
+   "accuracy@0.5": 0.7606
+  },
+  {
+   "model": "Logistic Regression",
+   "cv_auc": 0.9037,
+   "cv_std": 0.0041,
+   "test_auc": 0.9048,
+   "test_pr_auc": 0.7611,
+   "brier": 0.103,
+   "accuracy@0.5": 0.8514
+  },
+  {
+   "model": "Random Forest",
+   "cv_auc": 0.917,
+   "cv_std": 0.0033,
+   "test_auc": 0.9184,
+   "test_pr_auc": 0.8062,
+   "brier": 0.0946,
+   "accuracy@0.5": 0.8642
+  },
+  {
+   "model": "Hist Gradient Boosting",
+   "cv_auc": 0.9257,
+   "cv_std": 0.0051,
+   "test_auc": 0.9289,
+   "test_pr_auc": 0.8307,
+   "brier": 0.088,
+   "accuracy@0.5": 0.8726
+  }
+ ],
+ "best_params": {
+  "m__l2_regularization": "1.0",
+  "m__learning_rate": "0.1",
+  "m__max_leaf_nodes": "15"
+ },
+ "tuned_cv": 0.9253,
+ "tuned_auc": 0.9276,
+ "tuned_pr": 0.8274,
+ "default_hgb_auc": 0.9289,
+ "thr": 0.37,
+ "acc": 0.8551,
+ "prec": 0.6708,
+ "rec": 0.7747,
+ "f1": 0.719,
+ "auc": 0.9276,
+ "pr_auc": 0.8274,
+ "brier": 0.0887,
+ "cm": [
+  [
+   8168,
+   1110
+  ],
+  [
+   658,
+   2262
+  ]
+ ],
+ "auc_lo": 0.9222,
+ "auc_hi": 0.9325,
+ "f1_default_oof": 0.7042,
+ "f1_thr_oof": 0.7243,
+ "test_base": 0.2394,
+ "brier_base": 0.1821,
+ "importance": {
+  "marital_status": 0.0913,
+  "capital_gain": 0.0544,
+  "age": 0.0491,
+  "education_num": 0.0269,
+  "capital_loss": 0.0133,
+  "occupation": 0.0131,
+  "hours_per_week": 0.0129,
+  "relationship": 0.004,
+  "workclass_group": 0.0004,
+  "country_grp": 0.0002
+ },
+ "ece": 0.0123,
+ "unc_zone": 0.2003,
+ "cal": [
+  {
+   "bin": "(-0.001, 0.1]",
+   "n": 6485,
+   "mean_pred": 0.025,
+   "actual": 0.02
+  },
+  {
+   "bin": "(0.1, 0.2]",
+   "n": 1156,
+   "mean_pred": 0.144,
+   "actual": 0.149
+  },
+  {
+   "bin": "(0.2, 0.3]",
+   "n": 720,
+   "mean_pred": 0.248,
+   "actual": 0.274
+  },
+  {
+   "bin": "(0.3, 0.4]",
+   "n": 746,
+   "mean_pred": 0.353,
+   "actual": 0.351
+  },
+  {
+   "bin": "(0.4, 0.5]",
+   "n": 600,
+   "mean_pred": 0.45,
+   "actual": 0.377
+  },
+  {
+   "bin": "(0.5, 0.6]",
+   "n": 500,
+   "mean_pred": 0.549,
+   "actual": 0.546
+  },
+  {
+   "bin": "(0.6, 0.7]",
+   "n": 597,
+   "mean_pred": 0.65,
+   "actual": 0.635
+  },
+  {
+   "bin": "(0.7, 0.8]",
+   "n": 405,
+   "mean_pred": 0.744,
+   "actual": 0.783
+  },
+  {
+   "bin": "(0.8, 0.9]",
+   "n": 207,
+   "mean_pred": 0.835,
+   "actual": 0.908
+  },
+  {
+   "bin": "(0.9, 1.0]",
+   "n": 782,
+   "mean_pred": 0.982,
+   "actual": 0.99
+  }
+ ],
+ "lc": [
+  {
+   "fraction": 0.05,
+   "train_rows": 1830,
+   "test_auc": 0.8997
+  },
+  {
+   "fraction": 0.1,
+   "train_rows": 3659,
+   "test_auc": 0.911
+  },
+  {
+   "fraction": 0.25,
+   "train_rows": 9148,
+   "test_auc": 0.9226
+  },
+  {
+   "fraction": 0.5,
+   "train_rows": 18296,
+   "test_auc": 0.9247
+  },
+  {
+   "fraction": 1.0,
+   "train_rows": 36592,
+   "test_auc": 0.9275
+  }
+ ],
+ "sub_sex": [
+  {
+   "sex": "Female",
+   "n": 4135,
+   "base_rate": 0.114,
+   "selection_rate": 0.106,
+   "TPR": 0.662,
+   "FPR": 0.035,
+   "precision": 0.71,
+   "AUC": 0.947,
+   "mean_pred": 0.115
+  },
+  {
+   "sex": "Male",
+   "n": 8063,
+   "base_rate": 0.304,
+   "selection_rate": 0.364,
+   "TPR": 0.796,
+   "FPR": 0.175,
+   "precision": 0.665,
+   "AUC": 0.909,
+   "mean_pred": 0.306
+  }
+ ],
+ "sub_race": [
+  {
+   "race": "Amer-Indian-Eskimo",
+   "n": 113,
+   "base_rate": 0.133,
+   "selection_rate": 0.23,
+   "TPR": 0.867,
+   "FPR": 0.133,
+   "precision": 0.5,
+   "AUC": 0.929,
+   "mean_pred": 0.193
+  },
+  {
+   "race": "Asian-Pac-Islander",
+   "n": 387,
+   "base_rate": 0.233,
+   "selection_rate": 0.31,
+   "TPR": 0.756,
+   "FPR": 0.175,
+   "precision": 0.567,
+   "AUC": 0.89,
+   "mean_pred": 0.263
+  },
+  {
+   "race": "Black",
+   "n": 1149,
+   "base_rate": 0.12,
+   "selection_rate": 0.135,
+   "TPR": 0.688,
+   "FPR": 0.059,
+   "precision": 0.613,
+   "AUC": 0.949,
+   "mean_pred": 0.135
+  },
+  {
+   "race": "Other",
+   "n": 107,
+   "base_rate": 0.112,
+   "selection_rate": 0.093,
+   "TPR": 0.583,
+   "FPR": 0.032,
+   "precision": 0.7,
+   "AUC": 0.939,
+   "mean_pred": 0.112
+  },
+  {
+   "race": "White",
+   "n": 10442,
+   "base_rate": 0.255,
+   "selection_rate": 0.293,
+   "TPR": 0.78,
+   "FPR": 0.126,
+   "precision": 0.679,
+   "AUC": 0.926,
+   "mean_pred": 0.254
+  }
+ ],
+ "sub_age_band": [
+  {
+   "age_band": "17-24",
+   "n": 2076,
+   "base_rate": 0.013,
+   "selection_rate": 0.003,
+   "TPR": 0.222,
+   "FPR": 0.0,
+   "precision": 0.857,
+   "AUC": 0.963,
+   "mean_pred": 0.011
+  },
+  {
+   "age_band": "25-34",
+   "n": 3114,
+   "base_rate": 0.162,
+   "selection_rate": 0.16,
+   "TPR": 0.653,
+   "FPR": 0.065,
+   "precision": 0.659,
+   "AUC": 0.926,
+   "mean_pred": 0.171
+  },
+  {
+   "age_band": "35-44",
+   "n": 3044,
+   "base_rate": 0.341,
+   "selection_rate": 0.401,
+   "TPR": 0.793,
+   "FPR": 0.198,
+   "precision": 0.674,
+   "AUC": 0.897,
+   "mean_pred": 0.336
+  },
+  {
+   "age_band": "45-54",
+   "n": 2239,
+   "base_rate": 0.383,
+   "selection_rate": 0.481,
+   "TPR": 0.853,
+   "FPR": 0.251,
+   "precision": 0.678,
+   "AUC": 0.897,
+   "mean_pred": 0.383
+  },
+  {
+   "age_band": "55-64",
+   "n": 1179,
+   "base_rate": 0.327,
+   "selection_rate": 0.394,
+   "TPR": 0.784,
+   "FPR": 0.204,
+   "precision": 0.651,
+   "AUC": 0.886,
+   "mean_pred": 0.332
+  },
+  {
+   "age_band": "65+",
+   "n": 546,
+   "base_rate": 0.201,
+   "selection_rate": 0.19,
+   "TPR": 0.655,
+   "FPR": 0.073,
+   "precision": 0.692,
+   "AUC": 0.907,
+   "mean_pred": 0.214
+  }
+ ],
+ "dp_ratio": 0.2912,
+ "eo_gap": 13.4,
+ "br_ratio": 0.375,
+ "eo_lo": 9.2977,
+ "eo_hi": 18.3796,
+ "dp_lo": 0.2648,
+ "dp_hi": 0.3213,
+ "auc_sex": 0.936,
+ "auc_aware": 0.9279,
+ "dp_unaware": 0.2911,
+ "dp_aware": 0.2749,
+ "rel_tab": [
+  {
+   "relationship": "Husband",
+   "Female": 0.0,
+   "Male": 1.0
+  },
+  {
+   "relationship": "Not-in-family",
+   "Female": 0.467,
+   "Male": 0.533
+  },
+  {
+   "relationship": "Other-relative",
+   "Female": 0.458,
+   "Male": 0.542
+  },
+  {
+   "relationship": "Own-child",
+   "Female": 0.445,
+   "Male": 0.555
+  },
+  {
+   "relationship": "Unmarried",
+   "Female": 0.766,
+   "Male": 0.234
+  },
+  {
+   "relationship": "Wife",
+   "Female": 0.999,
+   "Male": 0.001
+  }
+ ],
+ "thr_m": 0.3815,
+ "thr_f": 0.2608,
+ "cmp": [
+  {
+   "metric": "acc",
+   "single threshold": 0.855,
+   "group thresholds": 0.856
+  },
+  {
+   "metric": "prec",
+   "single threshold": 0.671,
+   "group thresholds": 0.671
+  },
+  {
+   "metric": "f1",
+   "single threshold": 0.719,
+   "group thresholds": 0.723
+  },
+  {
+   "metric": "sel_f",
+   "single threshold": 0.106,
+   "group thresholds": 0.135
+  },
+  {
+   "metric": "sel_m",
+   "single threshold": 0.364,
+   "group thresholds": 0.354
+  },
+  {
+   "metric": "tpr_f",
+   "single threshold": 0.662,
+   "group thresholds": 0.764
+  },
+  {
+   "metric": "tpr_m",
+   "single threshold": 0.796,
+   "group thresholds": 0.788
+  },
+  {
+   "metric": "fpr_f",
+   "single threshold": 0.035,
+   "group thresholds": 0.055
+  },
+  {
+   "metric": "fpr_m",
+   "single threshold": 0.175,
+   "group thresholds": 0.164
+  }
+ ],
+ "err_hours": [
+  {
+   "hours_band": "Part-time (<35)",
+   "n": 2157,
+   "error_rate": 0.05,
+   "base_rate": 0.081
+  },
+  {
+   "hours_band": "Full-time (35-44)",
+   "n": 6734,
+   "error_rate": 0.138,
+   "base_rate": 0.208
+  },
+  {
+   "hours_band": "Overtime (45+)",
+   "n": 3307,
+   "error_rate": 0.22,
+   "base_rate": 0.408
+  }
+ ],
+ "err_occ_hi": [
+  {
+   "occ": "Protective-serv",
+   "n": 235,
+   "error_rate": 0.226,
+   "base_rate": 0.285
+  },
+  {
+   "occ": "Transport-moving",
+   "n": 600,
+   "error_rate": 0.218,
+   "base_rate": 0.188
+  },
+  {
+   "occ": "Craft-repair",
+   "n": 1504,
+   "error_rate": 0.206,
+   "base_rate": 0.224
+  },
+  {
+   "occ": "Exec-managerial",
+   "n": 1526,
+   "error_rate": 0.205,
+   "base_rate": 0.493
+  }
+ ],
+ "err_occ_lo": [
+  {
+   "occ": "Unknown",
+   "n": 706,
+   "error_rate": 0.088,
+   "base_rate": 0.095
+  },
+  {
+   "occ": "Handlers-cleaners",
+   "n": 494,
+   "error_rate": 0.053,
+   "base_rate": 0.077
+  },
+  {
+   "occ": "Other-service",
+   "n": 1245,
+   "error_rate": 0.036,
+   "base_rate": 0.043
+  }
+ ],
+ "fn_n": 658,
+ "fn_age": 42.4164,
+ "fn_hours": 42.4286,
+ "fn_edu": 10.0638,
+ "fn_gain": 0.0152,
+ "tp_age": 44.9562,
+ "tp_hours": 46.0195,
+ "tp_edu": 12.1216,
+ "tp_gain": 0.2719,
+ "err_unknown": 0.0878,
+ "err_overall": 0.1449
+}
